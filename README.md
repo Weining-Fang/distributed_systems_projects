@@ -6,6 +6,7 @@ This repo includes projects related to operating systems and distributed systems
 •	Built a teaching OS from the ground up on x86 using QEMU, gradually implementing bootloader setup, physical and virtual memory management, user-level processes, trap handling, and kernel-level thread scheduling;  
 •	Added multicore support with per-CPU state and implemented preemptive multitasking via timer interrupts and kernel interrupt enabling;  
 •	Designed and tested inter-process synchronization using kernel sleep/wakeup mechanisms, and implemented classical concurrency primitives such as condition variables through the producer-consumer problem;  
+  
 🛠️ In Progress: Extending the OS with file system support, including disk I/O, in-memory and on-disk inode layers, buffered caching, and a Unix-like user shell with support for file manipulation, directory traversal, and system calls like open, read, write, mkdir, and ls.  
 
 
