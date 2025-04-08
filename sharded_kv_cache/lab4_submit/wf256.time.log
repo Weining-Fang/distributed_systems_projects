@@ -1,0 +1,25 @@
+ESTIMATE of time to complete assignment: 12 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+11/6  14:15pm  3:00  read through the spec, preview the starter codes
+11/7  11:30am  5:00  worked on part A 
+11/8  14:30pm  5:00  debugged part A, worked on part B
+11/9   9:00am  8:00  worked on part B and C, run tests (partD)
+               ----
+               21:00  TOTAL time spent
+
+I discussed my solution with: ChatGPT 4o.
+
+In general I think this lab is clear to understand and relatively easy to implement (compared to RAFT in particular). 
+For the entire lab, debugging the failovers and error handling part took me the longest, which was a bit difficult if 
+there is uncleared confusion on how the flow should go (get a usable client from a node try to send request with this 
+node  if fail, get another usable node excluding the used ones  try to send request with this node  loop). The other 
+major confusion was on copying shard data. I found it helpful to understand the expected behavior of the server in this 
+part by reading the test code.  
+
+Since I really want to get the most out of this course, I chose to complete all components of this lab by myself. I am 
+very sorry that I turned it in late (again) because I finished the previous RAFT lab later than the specified due date 
+so everything got delayed. I really spared my efforts with every assignment of this class, and would really appreciate 
+it if I could be considered less penalty for my submission. Thank you so much!!!  

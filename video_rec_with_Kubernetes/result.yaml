@@ -1,0 +1,16 @@
+apiVersion: cs426.cloud/v1
+kind: LoadgenResult
+metadata:
+  creationTimestamp: "2024-09-29T00:13:28Z"
+  generation: 1
+  name: loadgen-request-c3-v5
+  namespace: wf256
+  resourceVersion: "20207142"
+  uid: 703b00ae-815e-4c18-b7ae-161366f87d01
+spec:
+  average_latency_ms: 1222.902
+  duration_s: 60
+  error_msg: ""
+  errors: 0
+  requests: 51
+  stale_responses: 0

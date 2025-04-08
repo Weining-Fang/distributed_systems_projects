@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: video-rec
+spec:
+  selector:
+    #app.kubernetes.io/name: 
+    app: video-rec # match the label from deployment.yml
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080 # the port the pod/container listens on

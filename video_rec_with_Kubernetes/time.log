@@ -1,0 +1,25 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+9/26   3:00pm  1:00  read the spec, completed A1, asked questions
+9/27   2:30pm  2:00  implemented A2, A3 
+9/28   3:00pm  5:00  implemented B1,B2,B3,B4
+9/29   4:00pm  5:00  implemented B5, C1, C2, C3, and debugged
+9/29  10:30am  2:00  wrote discussion
+               ----
+               15:00  TOTAL time spent
+
+I discussed my solution with: ChatGPT 4o.
+
+One challenging part of this lab for me is to understand the internal workflow 
+of Kubernetes: how it pulls the local docker container image, set up a deployment 
+start running the service on a pod, configure the deployment to run in the cluster, 
+expose the deployment with a service, and set up load tests as well as connection 
+pooling. Although the lab spec are clear to follow, I sometimes still feel confused 
+about the relationship between different objects and structures. During debugging I 
+also got to know that there are quite some operations that grpc has abstracted to run 
+underhood (for example, distributing load requests to different backing pods despite 
+single connection set up.) I hope we can get more hands-on experience to further 
+familiarize ourselves with Kubernetes and grpc in the future. 
