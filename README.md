@@ -1,6 +1,6 @@
-# Distributed Systems Projects
+# Systems-Related Projects
  
-This repo includes projects related to distributed systems I have completed. Brief introduction of each project:  
+This repo includes projects related to operating systems and distributed systems I have completed. Brief introduction of each project:  
     
 ## Single-node Video Recommendation Service  
 •	A gRPC-based video recommendation service, integrating UserService and VideoService to provide personalized ranked video recommendations;  
